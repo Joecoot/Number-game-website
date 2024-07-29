@@ -23,7 +23,7 @@ let holdButton = document.getElementById("hold-button");
 let turn = 1;
 let dice = ["dice-six-faces-one.png", "dice-six-faces-two.png", "dice-six-faces-three.png",
     "dice-six-faces-four.png", "dice-six-faces-five.png", "dice-six-faces-six.png"];
-const MAX_SCORE = 50;
+const MAX_SCORE = 5;
 
 //
 newGameButton.addEventListener("click", newGame)

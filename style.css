@@ -43,7 +43,8 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 100px;
+    gap: 5vh;
+    width: 50%;
 }
 
 #image {
@@ -51,6 +52,15 @@ body {
 }
 
 #controls-container-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+#controls-container-bottom-buttons {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -141,7 +151,12 @@ body {
 
     #controls-container-bottom {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         gap: 10px;
+    }
+
+    #controls-container-bottom-buttons {
+        display: flex;
+        flex-direction: row;
     }
 }
